@@ -1,0 +1,223 @@
+/* CSS Code created by Kolawole OLuwagbemiga */
+<!-- WARNING: This Web Project is designed by Kolawole Oluwagbemiga Boluwatife -->
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding:0;
+  background-color:#ededed;
+}
+#navbar ul {
+float: right;
+}
+#navbar ul li a,.navbar-brand{
+  color: aqua;
+  transition:1s;
+  background: none;
+  font-weight: bold;
+}
+#fixed {
+  padding-top:4px;
+}
+.navbar{
+    border-bottom:1px solid black;
+    width:auto;
+}
+header .navbar {
+  background-color:black;
+  height:auto;
+}
+#navbar ul li a:hover{
+  transform: rotate(3s);
+  color:turquoise;
+  background:none;
+  border-bottom: 5px solid turquoise;
+  padding-bottom: 5px;
+  background:#fff;
+  text-align:center;
+}
+.navbar-brand:hover{
+  color:black;
+  transform: rotateX(360deg);
+  background: #fff;
+}
+section.slide{
+  margin:100px 0px 20px 0px;
+  padding: none;
+  background-color: #fff;
+}
+section h3,.text-place h2{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size:900;
+}
+section .text-place p{
+  color: #000;
+  text-align: justify;
+}
+section hr{
+  border-bottom:5px solid darkturquoise;
+  width: 50px;
+}
+/* Carousel Caption */
+#change {
+  color:black;
+}
+
+/* Signup Form start */
+#shift {
+  text-align:center;
+}
+#fill {
+  font-size:19px;
+}
+#freed {
+  font-size:18px;
+}
+#free {
+  font-size:18px;
+}
+#spy {
+  width:320px;
+}
+#register {
+  font-size:18px;
+  font-weight:bold;
+  padding:5px;
+  border-radius:5px;
+  border-color:aqua;
+}
+#register:hover {
+  background-color:darkturquoise;
+  color:white;
+}
+#myFile {
+    background:grey;
+    border:0px;
+    color:white;
+    font-size:18px;
+    display:flex;
+}
+select {
+  height:40px;
+  width:300px;
+  padding:2px;
+}
+/* Signup Form end */
+
+/* Signin Form start */
+#sighted {
+  color:white;
+  font-size:27px;
+}
+#fuller {
+  height:600px;
+  padding:10px;
+  border:none;
+}
+.LoginBox {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 350px;
+   height: 490px;
+   padding: 80px 50px;
+   box-sizing:border-box;
+   background:rgba(0,0,0,.5);
+}
+.Persona {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    top:calc(-100px/2);
+    left:calc(50% - 50px);
+}
+h2 {
+    margin:0;
+    padding:0 0 5px;
+    color:#efed40;
+    text-align:center;
+}
+.LoginBox p {
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    color:#fff;
+}
+.LoginBox input {
+   width: 100%;
+   margin-bottom:20px;
+}
+.LoginBox input[type="text"],
+.LoginBox input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+}
+.LoginBox ::placeholder {
+    color:rgba(255,255,255,.5);
+}
+.LoginBox input[type="submit"] {
+    border:none;
+    outline:none;
+    height:40px;
+    color:#000;
+    font-size:16px;
+    background:aqua;
+    cursor:pointer;
+    border-radius:20px;
+}
+.LoginBox input[type="submit"]:hover {
+    background-color:darkturquoise;
+    color:#fff;
+}
+.LoginBox a {
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+}
+/* Signin Form end */
+
+/* FAQ start */
+#list {
+  padding:2px;
+}
+#den {
+  padding-left:500px;
+}
+#dene {
+  margin-left:495px;
+}
+#dash {
+  padding-left:505px;
+}
+#dashe {
+  padding-left:485px;
+}
+/* FAQ end */
+
+/* Footer/Section id start */
+#gain {
+  background-color:black;
+  padding:2px 0px 2px 0px;
+  height:auto;
+}
+#sight {
+  color:aqua;
+  font-size:16px;
+}
+#space {
+  padding-left:45px;
+}
+/* Footer/Section id  end */
